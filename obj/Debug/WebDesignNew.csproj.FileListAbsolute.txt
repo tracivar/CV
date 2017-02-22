@@ -1,0 +1,23 @@
+C:\Users\Gamer\Desktop\Your PC\study\GreyMethod\WebDesignNew\WebDesignNew\bin\roslyn\csc.exe
+C:\Users\Gamer\Desktop\Your PC\study\GreyMethod\WebDesignNew\WebDesignNew\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Gamer\Desktop\Your PC\study\GreyMethod\WebDesignNew\WebDesignNew\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Gamer\Desktop\Your PC\study\GreyMethod\WebDesignNew\WebDesignNew\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Gamer\Desktop\Your PC\study\GreyMethod\WebDesignNew\WebDesignNew\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Gamer\Desktop\Your PC\study\GreyMethod\WebDesignNew\WebDesignNew\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Gamer\Desktop\Your PC\study\GreyMethod\WebDesignNew\WebDesignNew\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Gamer\Desktop\Your PC\study\GreyMethod\WebDesignNew\WebDesignNew\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Gamer\Desktop\Your PC\study\GreyMethod\WebDesignNew\WebDesignNew\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Gamer\Desktop\Your PC\study\GreyMethod\WebDesignNew\WebDesignNew\bin\roslyn\vbc.exe
+C:\Users\Gamer\Desktop\Your PC\study\GreyMethod\WebDesignNew\WebDesignNew\bin\roslyn\VBCSCompiler.exe
+C:\Users\Gamer\Desktop\Your PC\study\GreyMethod\WebDesignNew\WebDesignNew\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Gamer\Desktop\Your PC\study\GreyMethod\WebDesignNew\WebDesignNew\bin\WebDesignNew.dll.config
+C:\Users\Gamer\Desktop\Your PC\study\GreyMethod\WebDesignNew\WebDesignNew\bin\WebDesignNew.dll
+C:\Users\Gamer\Desktop\Your PC\study\GreyMethod\WebDesignNew\WebDesignNew\bin\WebDesignNew.pdb
+C:\Users\Gamer\Desktop\Your PC\study\GreyMethod\WebDesignNew\WebDesignNew\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Gamer\Desktop\Your PC\study\GreyMethod\WebDesignNew\WebDesignNew\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Gamer\Desktop\Your PC\study\GreyMethod\WebDesignNew\WebDesignNew\obj\Debug\WebDesignNew.csprojResolveAssemblyReference.cache
+C:\Users\Gamer\Desktop\Your PC\study\GreyMethod\WebDesignNew\WebDesignNew\obj\Debug\WebDesignNew.dll
+C:\Users\Gamer\Desktop\Your PC\study\GreyMethod\WebDesignNew\WebDesignNew\obj\Debug\WebDesignNew.pdb
+D:\Study\GreyMethod\WebDesignNew\WebDesignNew\obj\Debug\WebDesignNew.csprojResolveAssemblyReference.cache
+D:\Study\GreyMethod\WebDesignNew\WebDesignNew\obj\Debug\WebDesignNew.dll
+D:\Study\GreyMethod\WebDesignNew\WebDesignNew\obj\Debug\WebDesignNew.pdb

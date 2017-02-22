@@ -1,0 +1,120 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Design.master.cs" Inherits="WebDesignNew.Design" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>My Website</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link type="text/css" rel="stylesheet" href="_styles/method.css" />
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Architects+Daughter" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Antic+Slab" rel="stylesheet"/> 
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>  
+    <meta name="title" content="Web, Software &amp; Cloud Specialists | Grey Method" />
+    <meta name="description" content="Grey Method are an Oxford based I.T company, developing software and web solutions for both the personal and commercial customer and selling tech hardware."/>
+    <meta name="keywords" content="web hosting, affordable web hosting, cheap web hosting, graphics, domain, plesk, wordpress, php, sql, free, free web hosting, free website, web hosting business, web hosting sevices, design web hosting, website promotion, cloud,  cloud computing, design, UK"/>
+</head>
+<body>
+    <form id="form1" runat="server">
+
+        
+
+        <div class="center">
+
+            <div class="headerzone">
+                <div class="headerbackground">
+                    <div class="navigation-bar">
+                    <div class="logo">
+                        <img src="/SiteAssets/charmed-logo.png" />
+                    </div>
+                    <div class="navbar">
+                        <ul class="navlist">
+                            <li style="text-transform:uppercase;"><a href="AboutUs.aspx">About Us</a></li>
+                            <li style="text-transform:uppercase;"><a href="Portfolio.aspx">Portfolio</a></li>
+                            <li style="text-transform:uppercase;"><a href="ContactUs.aspx">Contact Us</a></li>
+                            <li class="form"><a  href="Register.aspx">Register</a></li>
+                            <li class="form"><a  href="Login.aspx">Login</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            
+                    <div class="carousel">
+                        <div class="slider-viewport">
+                            <div class="slider-detail">
+                                <h1>Heading 1</h1>
+                                <p>Subheading content for <br /> explaining the point of this <br /> banner.</p>
+                            </div> 
+                            <div class="slider-detail">
+                                <h1>Heading 2</h1>
+                                <p>Subheading content for <br /> explaining the point of this <br /> banner.</p>
+                            </div> 
+                            <div class="slider-detail">
+                                <h1>Heading 3</h1>
+                                <p>Subheading content for <br /> explaining the point of this <br /> banner.</p>
+                            </div> 
+                        </div>
+                        <div class="slider-controls">
+                            <div class="slider-control" onclick="setNode(0);"></div>
+                            <div class="slider-control" onclick="setNode(1);"></div>
+                            <div class="slider-control" onclick="setNode(2);"></div>
+                        </div>
+                    </div>
+
+                    <script type="text/javascript">
+
+                        AllNodes = document.getElementsByClassName("slider-detail");
+                        
+                        document.getElementsByClassName("slider-control")[0].className = document.getElementsByClassName("slider-control")[0].className + " selectedControl";
+                        document.getElementsByClassName("slider-detail")[0].className += " slider-detail-active";
+                        CurNode = 0;
+
+                        function setNode(_i) {
+
+                            for (var i = 0; i < AllNodes.length; i++) {
+                                if (AllNodes[i].className.indexOf("slider-detail-active") >= 0) {
+                                    AllNodes[i].className = AllNodes[i].className.replace(" slider-detail-active", "");
+                                    document.getElementsByClassName("slider-control")[i].className = document.getElementsByClassName("slider-control")[i].className.replace(" selectedControl", "");
+                                }                          
+                            }
+
+                            CurNode = _i;
+                            
+                            document.getElementsByClassName("slider-detail")[_i].className += " slider-detail-active";    
+                            document.getElementsByClassName("slider-control")[_i].className += " selectedControl";
+
+                            window.clearTimeout(BeautyTimeout);
+                            BeautyTimeout = window.setTimeout(progress, BeautyDuration);
+                        }
+
+                        BeautyTimeout = null;
+                        BeautyDuration = 8000;
+                        function progress() {
+                            if (CurNode < document.getElementsByClassName("slider-detail").length - 1) {
+                                CurNode += 1;
+                            } else {
+                                CurNode = 0;
+                            }
+                            setNode(CurNode);
+                        }
+                        BeautyTimeout = window.setTimeout(progress, BeautyDuration);
+
+                    </script>
+                    
+                </div>
+            </div>
+
+            
+                 
+                <asp:ContentPlaceHolder ID="MainContent" runat="server">
+        
+                </asp:ContentPlaceHolder>
+            
+
+            
+        </div>
+    </form>
+</body>
+</html>
